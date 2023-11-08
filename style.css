@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px
+   
+  16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  
+  .navbar
+   
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .navbar a.active {
+    
+    color: black;
+  }
+  
+  /* Style the search bar */
+  .search-box {
+    float: center;
+  }
+  
+  .search-box input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  .search-box button {
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: orangered;
+    color: #fff;
+  }
+
+  /* Style the search button on hover */
+  .search-box button:hover {
+    background-color: #ddd;
+  }
+  /* Style the navigation bar logo */
+.navbar .logo {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+  }
+
+  /* Style the side menu */
+  .sidemenu {
+    width: 250px;
+    background-color: #fff;
+    position: fixed;
+    top: -5;
+    left: -5; /* Set the left property to 0 to position the side menu on the left */
+    bottom: 5%;
+    overflow-x: hidden;
+    overflow-y: auto; /* Enable scroll if needed */
+  }
+    
+  
+  /* Style the side menu items */
+  .sidemenu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding: 10px 16px;
+  }
+  
+  /* Style the active side menu item */
+  .sidemenu a.active {
+    color: black;
+  }
+  
+  /* Style the side menu items on hover */
+  .sidemenu a:hover {
+
+    color: black;
+  }
+  
+  /* Style the side menu header */
+  .sidemenu h2 {
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 10px 16px;
+    
+    color: black;
+  }
+  
+  /* Style the horizontal line */
+  .sidemenu hr {
+    border: 0;
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+  }
+
+  .orders ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .orders li {
+    margin-bottom: 10px;
+  }
+
+  .orders {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .sidemenu .orders li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the "Orders" section list item images */
+  .sidemenu .orders li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .products {
+    width: 30%;
+    float: left;
+  }
+
+  .products ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .products li {
+    margin-bottom: 10px;
+  }
+
+  .products li a {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+  }
+
+  .products li a:hover {
+    background-color: #ddd;
+  }
+
+  .details {
+    width: 70%;
+    float: right;
+  }
+
+  .details img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .details p {
+    margin-top: 10px;
+  }
+
+  .details a {
+    background-color: #04AA6D;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
